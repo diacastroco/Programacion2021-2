@@ -1,0 +1,8 @@
+Para programar desde el Ipad.
+1. Abrir App.
+2. Entrar en el repositorio Programacion
+3. git pull https bla bla bla main
+4. Hacer los programas dentro del repositorio para subirlos.
+5. git status para verificar lo que se va a subir
+6. git commit -m "mucho texto"
+7. git push -u origin main/master
