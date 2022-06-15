@@ -2,12 +2,12 @@
 #include <iostream>
 
 bool isprime(long long n);
-long long largedivisor(long long n);
+long long largestprimedivisor(long long n);
 
 int main(void)
 {
   const long long n = 600851475147;
-  std::cout << "Largest prime divisor of number n = " << largedivisor(n) << std::endl;
+  std::cout << "Largest prime divisor of number n = " << largestprimedivisor(n) << std::endl;
   return 0;
 }
 
@@ -31,7 +31,7 @@ bool isprime(long long n) //Función que retorna un booleano y recibe un long lo
 
 //----------------------------------//-----------------------//----------------
 //Función que calcula el divisor mas grande que sea primo de un número n.
-long long largedivisor(long long n) //Funcion que recibe un long long y retorna un long long
+long long largestprimedivisor(long long n) //Funcion que recibe un long long y retorna un long long
 {
   long long largedivisor = 0; //Inicializamos la variable
   for (long long i = 2; i < n; i++)
